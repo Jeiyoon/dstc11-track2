@@ -1,6 +1,6 @@
 # Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue
 
-<img width="800" alt="Capture" src="https://user-images.githubusercontent.com/56618962/221478870-f5f66db1-415c-40ca-9219-951ac492177c.PNG">
+<img width="850" alt="Capture" src="https://user-images.githubusercontent.com/56618962/221478870-f5f66db1-415c-40ca-9219-951ac492177c.PNG">
 
 
 - Paper: https://arxiv.org/abs/2212.02021
