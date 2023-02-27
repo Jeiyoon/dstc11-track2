@@ -116,6 +116,28 @@ python3 -m sitod.run_experiment \
 | **MiniLM-MultiQA** |  74.7  |  52.8  |  61.2  |  70.5  |  74.9  |  72.7  |  83.4  |  25  |
 | **MiniLM-L12** |  77.4  |  54.5  |  63.2  |  70.5  |  79.1  |  74.6  |  80.0  |  24  |
 
+## Inference
+
+~~~
+Yeah where do I go on here to pay my bill?	34
+Hi, I need to speak to someone about my bill.	34
+Okay. When will I see that in my bill?	34
+Would it be on like any of my other bills?	34
+Okay. Where at on the bill?	34
+Oh okay. Where at on the bill. I'm looking now.	34
+Thank you. How much will this make my bill go up?	34
+Well I should probably pay my bill while I have you on the line.	34
+How can I make payments going forward without calling in?	34
+Hi. I need to check my bill? And maybe pay my bill?	34
+Oh, man. Is there any other way I can check my bill and pay it?	34
+So, my bill after this one won't be til-.	34
+And when is that bill due every month?	34
+September first alright. And I will get a bill in the mail for that?	34
+Hi I am calling because I received a wrong bill.	34
+And from here I can pay my bill online right?	34
+Hi I need to change my billing address on my policy.	34
+~~~
+
 ## Citation
 
 - Please consider citing our paper if it is of help to you ☺
