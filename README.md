@@ -42,6 +42,12 @@ python3 -m sitod.run_experiment \
 --config configs/run-intent-clustering-baselines.jsonnet
 ```
 
+- Best Performance (MiniLM-L12 & K-means)
+
+| **Model** |  **NMI**  |  **ARI**  |  **ACC**  |  **Precision**  |  **Recall**  |  **F1**  |  **Example Coverage**  |  **K**  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Ours** |  63.1  |  38.9  |  54.9  |  68.0  |  54.9  |  60.8  |  100.0  |  31  |
+
 - Experimental Result (Clustering algorithm: K-means)
 
 | **Model** |  **NMI**  |  **ARI**  |  **ACC**  |  **Precision**  |  **Recall**  |  **F1**  |  **Example Coverage**  |  **K**  |
@@ -68,12 +74,6 @@ python3 -m sitod.run_experiment \
 | **MiniLM-MultiQA** |  61.7  |  38.2  |  55.1  |  66.6  |  55.4  |  60.5  |  98.8  |  30  |
 | **MiniLM-L12** |  63.1  |  38.9  |  54.9  |  68.0  |  54.9  |  60.8  |  100.0  |  31  |
 
-- Best Performance (MiniLM-L12 & K-means)
-
-| **Model** |  **NMI**  |  **ARI**  |  **ACC**  |  **Precision**  |  **Recall**  |  **F1**  |  **Example Coverage**  |  **K**  |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Ours** |  63.1  |  38.9  |  54.9  |  68.0  |  54.9  |  60.8  |  100.0  |  31  |
-
 ### Task 2: Intent Induction
 
 ```bash
@@ -83,6 +83,12 @@ python3 -m sitod.run_experiment \
 --experiment_root_dir results \
 --config configs/run-open-intent-induction-baselines.jsonnet
 ```
+
+- Best Performance (MiniLM-MultiQA & Agglomerative)
+
+| **Model** |  **NMI**  |  **ARI**  |  **ACC**  |  **Precision**  |  **Recall**  |  **F1**  |  **Example Coverage**  |  **K**  |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Ours** |  81.0  |  64.2  |  66.5  |  75.5  |  80.6  |  78.0  |  86.2  |  25  |
 
 - Experimental Result (Clustering algorithm: K-means)
 
@@ -109,12 +115,6 @@ python3 -m sitod.run_experiment \
 | **MiniLM-L6** | 73.2  |  47.1  |  57.1  |  66.0  |  72.2  |  69.0  |  83.1  |  25  |
 | **MiniLM-MultiQA** |  74.7  |  52.8  |  61.2  |  70.5  |  74.9  |  72.7  |  83.4  |  25  |
 | **MiniLM-L12** |  77.4  |  54.5  |  63.2  |  70.5  |  79.1  |  74.6  |  80.0  |  24  |
-
-- Best Performance (MiniLM-MultiQA & Agglomerative)
-
-| **Model** |  **NMI**  |  **ARI**  |  **ACC**  |  **Precision**  |  **Recall**  |  **F1**  |  **Example Coverage**  |  **K**  |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Ours** |  81.0  |  64.2  |  66.5  |  75.5  |  80.6  |  78.0  |  86.2  |  25  |
 
 ## Citation
 
