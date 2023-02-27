@@ -116,6 +116,21 @@ python3 -m sitod.run_experiment \
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Ours** |  81.0  |  64.2  |  66.5  |  75.5  |  80.6  |  78.0  |  86.2  |  25  |
 
+## Citation
+
+- Please consider citing our paper if it is of help to you ☺
+
+```bib
+@misc{https://doi.org/10.48550/arxiv.2212.02021,
+  doi = {10.48550/ARXIV.2212.02021},
+  url = {https://arxiv.org/abs/2212.02021},
+  author = {Park, Jeiyoon and Jang, Yoonna and Lee, Chanhee and Lim, Heuiseok},
+  title = {Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
 
 
