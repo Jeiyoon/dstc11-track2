@@ -124,7 +124,7 @@ python3 -m sitod.run_experiment \
 @misc{https://doi.org/10.48550/arxiv.2212.02021,
   doi = {10.48550/ARXIV.2212.02021},
   url = {https://arxiv.org/abs/2212.02021},
-  author = {Park, Jeiyoon and Jang, Yoonna and Lee, Chanhee and Lim, Heuiseok},
+  author = {Jeiyoon Park, Yoonna Jang, Chanhee Lee and Heuiseok Lim},
   title = {Analysis of Utterance Embeddings and Clustering Methods Related to Intent Induction for Task-Oriented Dialogue},
   publisher = {arXiv},
   year = {2022},
