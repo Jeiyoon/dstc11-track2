@@ -1,0 +1,5 @@
+{
+ "RunID": "kmeans_all-mpnet-base-v2",
+ "Dataset": "/data02/jeiyoon_park/dstc11-track2-intent-induction/dstc11/development",
+ "Experiments Path": "/data02/jeiyoon_park/dstc11-track2-intent-induction/results/open-intent-induction-baselines/development/kmeans_all-mpnet-base-v2"
+}
