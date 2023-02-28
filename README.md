@@ -20,10 +20,10 @@ pip3 install setproctitle
 ## Dataset
 - DSTC11 dataset
 
-| **Dataset** |  **Domain**  |  **#Intents**  |  **$Utterances**  |
+| **Dataset** |  **Domain**  |  **#Intents**  |  **#Utterances**  |
 | :---: | :---: | :---: | :---: |
 | **DSTC11-dev** |  insurance  |  22  |  66,875  |
-| **DSTC-test** |  insurance  |  22  |  913  |
+| **DSTC11-test** |  insurance  |  22  |  913  |
 
 - A sample segment of conversation transcript
 ```json
