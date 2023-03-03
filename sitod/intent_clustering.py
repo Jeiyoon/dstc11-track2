@@ -35,13 +35,13 @@ from scipy.spatial import Voronoi, voronoi_plot_2d
 
 from sitod.data import DialogueDataset
 
-from pyvot.vot_torch import UVWB, ICPVWB, SVWB, VotReg, VWB, RegVWB
+# from pyvot.vot_torch import UVWB, ICPVWB, SVWB, VotReg, VWB, RegVWB
 # from pyvot.vot_torch import Vot
-from pyvot.vot_numpy import VOT
-from pyvot import utils
+# from pyvot.vot_numpy import VOT
+# from pyvot import utils
 
-from simcse import SimCSE
-from DiffCSE.diffcse import DiffCSE
+# from simcse import SimCSE
+# from DiffCSE.diffcse import DiffCSE
 from transformers import AutoModel, AutoTokenizer
 
 logger = logging.getLogger(__name__)
